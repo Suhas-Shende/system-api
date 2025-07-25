@@ -4,8 +4,11 @@
 
 
 git clone https://github.com/Suhas-Shende/system-api
+
 cd system-api
+
 sysenv/scripts/activate
+
 cd demoproject
 ```python
 # Before running python manage.py makemigrations and python manage.py migrate
@@ -30,7 +33,10 @@ DATABASES = {
 ```
 
 python manage.py makemigrations
+
 python manage.py migrate
+
 python manage.py createsuperuser
+
 python manage.py runserver
 
