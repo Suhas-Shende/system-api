@@ -1,9 +1,10 @@
 ## Django REST API Demo System API
 
-## How to run
+## How to run code command line
 
 
 git clone https://github.com/Suhas-Shende/system-api
+
 
 cd system-api
 
@@ -32,7 +33,9 @@ DATABASES = {
 
 ```
 
-python manage.py makemigrations
+python manage.py makemigrations 
+
+python manage.py makemigrations demoapp 
 
 python manage.py migrate
 
